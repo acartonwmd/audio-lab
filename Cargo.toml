@@ -1,7 +1,16 @@
 [package]
+<<<<<<< HEAD
 name = "beatnik"
+=======
+name = "audio-lab"
+>>>>>>> 50895b7 (Initial Commit)
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+<<<<<<< HEAD
 iced = "0.14.0"
+=======
+iced = { version = "0.14.0", features = ["tokio", "svg", "advanced", "lazy", "image"] }
+tokio = { version = "1.54.1", features = ["macros", "fs"] }
+>>>>>>> 50895b7 (Initial Commit)
